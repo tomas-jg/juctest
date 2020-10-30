@@ -2,7 +2,7 @@ import java.util.concurrent.TimeUnit;
 
 public class LockTest {
     private static Object obA = new Object();
-    private static Object obB = new Object();;
+    private static Object obB = new Object();
     public static void main(String[] args) {
 
         new Thread(()->{
